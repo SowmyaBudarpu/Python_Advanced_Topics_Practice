@@ -3,7 +3,7 @@ class Item:
         self.name = name
         self.price = price
         self.quantity = quantity
-        # Ensure the price and quantity are not negative
+        # Here ensure the price and quantity are not negative
         if price < 0 or quantity < 0:
             raise ValueError("Price and quantity must be non-negative")
     
